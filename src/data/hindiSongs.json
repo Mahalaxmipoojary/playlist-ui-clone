@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Tum Hi Ho",
+    "artist": "Arijit Singh",
+    "album": "Aashiqui 2",
+    "duration": "4:22"
+  },
+  {
+    "id": 2,
+    "title": "Kesariya",
+    "artist": "Arijit Singh",
+    "album": "Brahmastra",
+    "duration": "4:28"
+  }
+]

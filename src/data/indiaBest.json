@@ -1,0 +1,37 @@
+[
+  {
+    "id": "india-2025",
+    "title": "Top Tracks of 2025 India",
+    "image": "/india1.jpg",
+    "description": "Most streamed songs of 2025 in India",
+    "source": "hindi"
+  },
+  {
+    "id": "tamil-2025",
+    "title": "Top Tamil Tracks of 2025",
+    "image": "/india2.jpg",
+    "description": "Most streamed Tamil songs of 2025",
+    "source": "tamil"
+  },
+  {
+    "id": "hindi-2025",
+    "title": "Top Hindi Tracks of 2025",
+    "image": "/india3.jpg",
+    "description": "Most streamed Hindi songs of 2025",
+    "source": "hindi"
+  },
+  {
+    "id": "malayalam-2025",
+    "title": "Top Malayalam Tracks of 2025",
+    "image": "/india4.jpg",
+    "description": "Most streamed Malayalam songs of 2025",
+    "source": "malayalam"
+  },
+  {
+    "id": "telugu-2025",
+    "title": "Top Telugu Tracks of 2025",
+    "image": "/india5.jpg",
+    "description": "Most streamed Telugu songs of 2025",
+    "source": "telugu"
+  }
+]

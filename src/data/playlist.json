@@ -1,0 +1,222 @@
+[
+  {
+    "id": "arijit",
+    "name": "Arijit Singh Radio",
+    "image": "/album1.jpg",
+    "description": "Top hits by Arijit Singh",
+    "tracks": [
+      { "id": 1, "title": "Tum Hi Ho", "artist": "Arijit Singh", "album": "Aashiqui 2", "duration": "4:22" },
+      { "id": 2, "title": "Kesariya", "artist": "Arijit Singh", "album": "Brahmastra", "duration": "4:28" },
+      { "id": 3, "title": "Channa Mereya", "artist": "Arijit Singh", "album": "Ae Dil Hai Mushkil", "duration": "4:49" }
+    ]
+  },
+  {
+    "id": "kk",
+    "name": "KK Classics",
+    "image": "/album2.jpg",
+    "description": "Best of KK",
+    "tracks": [
+      { "id": 1, "title": "Zara Sa", "artist": "KK", "album": "Jannat", "duration": "4:45" },
+      { "id": 2, "title": "Khuda Jaane", "artist": "KK", "album": "Bachna Ae Haseeno", "duration": "5:33" },
+      { "id": 3, "title": "Tadap Tadap", "artist": "KK", "album": "Hum Dil De Chuke Sanam", "duration": "5:58" }
+    ]
+  },
+  {
+    "id": "rahman",
+    "name": "A.R. Rahman Hits",
+    "image": "/album3.jpg",
+    "description": "Musical masterpieces",
+    "tracks": [
+      { "id": 1, "title": "Jai Ho", "artist": "A.R. Rahman", "album": "Slumdog Millionaire", "duration": "5:19" },
+      { "id": 2, "title": "Kun Faya Kun", "artist": "A.R. Rahman", "album": "Rockstar", "duration": "7:40" },
+      { "id": 3, "title": "Roja Janeman", "artist": "A.R. Rahman", "album": "Roja", "duration": "5:00" }
+    ]
+  },
+  {
+    "id": "atif",
+    "name": "Atif Aslam Radio",
+    "image": "/album4.jpg",
+    "description": "Romantic hits",
+    "tracks": [
+      { "id": 1, "title": "Jeene Laga Hoon", "artist": "Atif Aslam", "album": "Ramaiya Vastavaiya", "duration": "3:57" },
+      { "id": 2, "title": "Pehli Nazar Mein", "artist": "Atif Aslam", "album": "Race", "duration": "5:09" },
+      { "id": 3, "title": "Tera Hone Laga Hoon", "artist": "Atif Aslam", "album": "Ajab Prem Ki Ghazab Kahani", "duration": "4:55" }
+    ]
+  },
+  {
+    "id": "shreya",
+    "name": "Shreya Ghoshal Hits",
+    "image": "/album5.jpg",
+    "description": "Melodious voice",
+    "tracks": [
+      { "id": 1, "title": "Sun Raha Hai", "artist": "Shreya Ghoshal", "album": "Aashiqui 2", "duration": "5:14" },
+      { "id": 2, "title": "Teri Ore", "artist": "Shreya Ghoshal", "album": "Singh Is Kinng", "duration": "5:05" },
+      { "id": 3, "title": "Agar Tum Mil Jao", "artist": "Shreya Ghoshal", "album": "Zeher", "duration": "5:34" }
+    ]
+  },
+  {
+    "id": "sonu",
+    "name": "Sonu Nigam Classics",
+    "image": "/album6.jpg",
+    "description": "Golden hits",
+    "tracks": [
+      { "id": 1, "title": "Kal Ho Naa Ho", "artist": "Sonu Nigam", "album": "Kal Ho Naa Ho", "duration": "5:21" },
+      { "id": 2, "title": "Abhi Mujh Mein Kahin", "artist": "Sonu Nigam", "album": "Agneepath", "duration": "6:10" },
+      { "id": 3, "title": "Main Agar Kahoon", "artist": "Sonu Nigam", "album": "Om Shanti Om", "duration": "5:08" }
+    ]
+  },
+  {
+    "id": "udit",
+    "name": "Udit Narayan Gold",
+    "image": "/album7.jpg",
+    "description": "Evergreen classics",
+    "tracks": [
+      { "id": 1, "title": "Pehla Nasha", "artist": "Udit Narayan", "album": "Jo Jeeta Wohi Sikandar", "duration": "4:51" },
+      { "id": 2, "title": "Mitwa", "artist": "Udit Narayan", "album": "Lagaan", "duration": "6:45" },
+      { "id": 3, "title": "Kuch Kuch Hota Hai", "artist": "Udit Narayan", "album": "KKHH", "duration": "4:58" }
+    ]
+  },
+  {
+    "id": "alka",
+    "name": "Alka Yagnik Hits",
+    "image": "/album8.jpg",
+    "description": "Classic melodies",
+    "tracks": [
+      { "id": 1, "title": "Agar Tum Saath Ho", "artist": "Alka Yagnik", "album": "Tamasha", "duration": "5:41" },
+      { "id": 2, "title": "Dil Laga Liya", "artist": "Alka Yagnik", "album": "Dil Hai Tumhaara", "duration": "4:48" },
+      { "id": 3, "title": "Taal Se Taal Mila", "artist": "Alka Yagnik", "album": "Taal", "duration": "6:18" }
+    ]
+  },
+  {
+    "id": "jubin",
+    "name": "Jubin Nautiyal Love",
+    "image": "/album9.jpg",
+    "description": "Romantic songs",
+    "tracks": [
+      { "id": 1, "title": "Lut Gaye", "artist": "Jubin Nautiyal", "album": "Single", "duration": "3:48" },
+      { "id": 2, "title": "Humnava Mere", "artist": "Jubin Nautiyal", "album": "Single", "duration": "5:29" },
+      { "id": 3, "title": "Tum Hi Aana", "artist": "Jubin Nautiyal", "album": "Marjaavaan", "duration": "4:09" }
+    ]
+  },
+  {
+    "id": "armaan",
+    "name": "Armaan Malik Hits",
+    "image": "/album10.jpg",
+    "description": "Modern melodies",
+    "tracks": [
+      { "id": 1, "title": "Bol Do Na Zara", "artist": "Armaan Malik", "album": "Azhar", "duration": "4:53" },
+      { "id": 2, "title": "Main Rahoon Ya Na Rahoon", "artist": "Armaan Malik", "album": "Single", "duration": "5:05" },
+      { "id": 3, "title": "Sab Tera", "artist": "Armaan Malik", "album": "Baaghi", "duration": "3:38" }
+    ]
+  },
+  {
+    "id": "neha",
+    "name": "Neha Kakkar Party",
+    "image": "/album11.jpg",
+    "description": "Party hits by Neha Kakkar",
+    "tracks": [
+      { "id": 1, "title": "Dilbar", "artist": "Neha Kakkar", "album": "Satyameva Jayate", "duration": "3:05" },
+      { "id": 2, "title": "Aankh Marey", "artist": "Neha Kakkar", "album": "Simmba", "duration": "3:32" },
+      { "id": 3, "title": "O Saki Saki", "artist": "Neha Kakkar", "album": "Batla House", "duration": "3:12" }
+    ]
+  },
+  {
+    "id": "darshan",
+    "name": "Darshan Raval Vibes",
+    "image": "/album12.jpg",
+    "description": "Romantic vibes by Darshan Raval",
+    "tracks": [
+      { "id": 1, "title": "Tera Zikr", "artist": "Darshan Raval", "album": "Single", "duration": "3:30" },
+      { "id": 2, "title": "Asal Mein", "artist": "Darshan Raval", "album": "Single", "duration": "3:45" },
+      { "id": 3, "title": "Ek Tarfa", "artist": "Darshan Raval", "album": "Single", "duration": "3:55" }
+    ]
+  },
+  {
+    "id": "guru",
+    "name": "Guru Randhawa Hits",
+    "image": "/album13.jpg",
+    "description": "Top Punjabi hits by Guru Randhawa",
+    "tracks": [
+      { "id": 1, "title": "Lahore", "artist": "Guru Randhawa", "album": "Single", "duration": "3:41" },
+      { "id": 2, "title": "High Rated Gabru", "artist": "Guru Randhawa", "album": "Single", "duration": "3:33" },
+      { "id": 3, "title": "Suit Suit", "artist": "Guru Randhawa", "album": "Hindi Medium", "duration": "3:10" }
+    ]
+  },
+  {
+    "id": "badshah",
+    "name": "Badshah Party",
+    "image": "/album14.jpg",
+    "description": "Party anthems by Badshah",
+    "tracks": [
+      { "id": 1, "title": "DJ Waley Babu", "artist": "Badshah", "album": "Single", "duration": "2:56" },
+      { "id": 2, "title": "Kala Chashma", "artist": "Badshah", "album": "Baar Baar Dekho", "duration": "3:07" },
+      { "id": 3, "title": "She Move It Like", "artist": "Badshah", "album": "Single", "duration": "3:02" }
+    ]
+  },
+  {
+    "id": "raftaar",
+    "name": "Raftaar Rap",
+    "image": "/album15.jpg",
+    "description": "Rap hits by Raftaar",
+    "tracks": [
+      { "id": 1, "title": "Swag Mera Desi", "artist": "Raftaar", "album": "Single", "duration": "3:04" },
+      { "id": 2, "title": "Dhaakad", "artist": "Raftaar", "album": "Dangal", "duration": "2:56" },
+      { "id": 3, "title": "Toh Dishoom", "artist": "Raftaar", "album": "Dishoom", "duration": "3:23" }
+    ]
+  },
+  {
+    "id": "sunidhi",
+    "name": "Sunidhi Chauhan Power",
+    "image": "/album16.jpg",
+    "description": "Powerful vocals by Sunidhi Chauhan",
+    "tracks": [
+      { "id": 1, "title": "Sheila Ki Jawani", "artist": "Sunidhi Chauhan", "album": "Tees Maar Khan", "duration": "4:12" },
+      { "id": 2, "title": "Kamli", "artist": "Sunidhi Chauhan", "album": "Dhoom 3", "duration": "3:57" },
+      { "id": 3, "title": "Beedi", "artist": "Sunidhi Chauhan", "album": "Omkara", "duration": "5:04" }
+    ]
+  },
+  {
+    "id": "lata",
+    "name": "Lata Mangeshkar Forever",
+    "image": "/album17.jpg",
+    "description": "Timeless classics by Lata Mangeshkar",
+    "tracks": [
+      { "id": 1, "title": "Lag Ja Gale", "artist": "Lata Mangeshkar", "album": "Woh Kaun Thi", "duration": "4:17" },
+      { "id": 2, "title": "Tere Bina Zindagi Se", "artist": "Lata Mangeshkar", "album": "Aandhi", "duration": "5:38" },
+      { "id": 3, "title": "Ajeeb Dastan Hai Yeh", "artist": "Lata Mangeshkar", "album": "Dil Apna Aur Preet Parai", "duration": "4:01" }
+    ]
+  },
+  {
+    "id": "kishore",
+    "name": "Kishore Kumar Classics",
+    "image": "/album18.jpg",
+    "description": "Golden era hits by Kishore Kumar",
+    "tracks": [
+      { "id": 1, "title": "Roop Tera Mastana", "artist": "Kishore Kumar", "album": "Aradhana", "duration": "3:42" },
+      { "id": 2, "title": "O Mere Dil Ke Chain", "artist": "Kishore Kumar", "album": "Mere Jeevan Saathi", "duration": "4:36" },
+      { "id": 3, "title": "Pal Pal Dil Ke Paas", "artist": "Kishore Kumar", "album": "Blackmail", "duration": "5:27" }
+    ]
+  },
+  {
+    "id": "rd",
+    "name": "R.D. Burman Magic",
+    "image": "/album19.jpg",
+    "description": "Evergreen compositions by R.D. Burman",
+    "tracks": [
+      { "id": 1, "title": "Mehbooba Mehbooba", "artist": "R.D. Burman", "album": "Sholay", "duration": "3:18" },
+      { "id": 2, "title": "Chura Liya Hai Tumne", "artist": "R.D. Burman", "album": "Yaadon Ki Baaraat", "duration": "4:45" },
+      { "id": 3, "title": "Gulabi Aankhen", "artist": "R.D. Burman", "album": "The Train", "duration": "3:18" }
+    ]
+  },
+  {
+    "id": "amit",
+    "name": "Amit Trivedi Hits",
+    "image": "/album20.jpg",
+    "description": "Modern classics by Amit Trivedi",
+    "tracks": [
+      { "id": 1, "title": "Iktara", "artist": "Amit Trivedi", "album": "Wake Up Sid", "duration": "4:14" },
+      { "id": 2, "title": "Namo Namo", "artist": "Amit Trivedi", "album": "Kedarnath", "duration": "5:28" },
+      { "id": 3, "title": "Shubhaarambh", "artist": "Amit Trivedi", "album": "Kai Po Che", "duration": "3:55" }
+    ]
+  }
+]

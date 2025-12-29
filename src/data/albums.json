@@ -1,0 +1,22 @@
+[
+  { "id": "arijit", "title": "Arijit Singh Radio", "artist": "Arijit Singh", "image": "/album1.jpg" },
+  { "id": "kk", "title": "KK Classics", "artist": "KK", "image": "/album2.jpg" },
+  { "id": "rahman", "title": "A.R. Rahman Hits", "artist": "A.R. Rahman", "image": "/album3.jpg" },
+  { "id": "atif", "title": "Atif Aslam Radio", "artist": "Atif Aslam", "image": "/album4.jpg" },
+  { "id": "shreya", "title": "Shreya Ghoshal Hits", "artist": "Shreya Ghoshal", "image": "/album5.jpg" },
+  { "id": "sonu", "title": "Sonu Nigam Classics", "artist": "Sonu Nigam", "image": "/album6.jpg" },
+  { "id": "udit", "title": "Udit Narayan Gold", "artist": "Udit Narayan", "image": "/album7.jpg" },
+  { "id": "alka", "title": "Alka Yagnik Hits", "artist": "Alka Yagnik", "image": "/album8.jpg" },
+  { "id": "jubin", "title": "Jubin Nautiyal Love", "artist": "Jubin Nautiyal", "image": "/album9.jpg" },
+  { "id": "armaan", "title": "Armaan Malik Hits", "artist": "Armaan Malik", "image": "/album10.jpg" },
+  { "id": "neha", "title": "Neha Kakkar Party", "artist": "Neha Kakkar", "image": "/album11.jpg" },
+  { "id": "darshan", "title": "Darshan Raval Vibes", "artist": "Darshan Raval", "image": "/album12.jpg" },
+  { "id": "guru", "title": "Guru Randhawa Hits", "artist": "Guru Randhawa", "image": "/album13.jpg" },
+  { "id": "badshah", "title": "Badshah Party", "artist": "Badshah", "image": "/album14.jpg" },
+  { "id": "raftaar", "title": "Raftaar Rap", "artist": "Raftaar", "image": "/album15.jpg" },
+  { "id": "sunidhi", "title": "Sunidhi Chauhan Power", "artist": "Sunidhi Chauhan", "image": "/album16.jpg" },
+  { "id": "lata", "title": "Lata Mangeshkar Forever", "artist": "Lata Mangeshkar", "image": "/album17.jpg" },
+  { "id": "kishore", "title": "Kishore Kumar Classics", "artist": "Kishore Kumar", "image": "/album18.jpg" },
+  { "id": "rd", "title": "R.D. Burman Magic", "artist": "R.D. Burman", "image": "/album19.jpg" },
+  { "id": "amit", "title": "Amit Trivedi Hits", "artist": "Amit Trivedi", "image": "/album20.jpg" }
+]
