@@ -5,23 +5,28 @@ export default function Sidebar() {
   const navigate = useNavigate();
 
   return (
-    <div className="w-20 bg-black border-r border-white/10 flex flex-col items-center py-6 gap-6">
+    // ❗ Hidden on mobile, visible from md screens
+    <div className="hidden md:flex w-20 bg-black border-r border-white/10 flex-col items-center py-6 gap-6">
+      
       {/* Library */}
       <Library
+        size={22}
         className="text-gray-400 hover:text-white cursor-pointer"
         onClick={() => navigate("/library")}
       />
 
       {/* Create Playlist */}
       <Plus
+        size={22}
         className="text-gray-400 hover:text-white cursor-pointer"
         onClick={() => alert("Create playlist")}
       />
 
       {/* Saved */}
       <Bookmark
+        size={22}
         className="text-green-500 cursor-pointer"
-        onClick={() => navigate("/playlist")}
+        onClick={() => navigate("/library/liked")}
       />
     </div>
   );
