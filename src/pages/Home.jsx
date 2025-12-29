@@ -3,37 +3,44 @@ import Sidebar from "../components/Sidebar";
 import TopBar from "../components/TopBar";
 import Filters from "../components/Filters";
 import AlbumCard from "../components/AlbumCard";
+import MobilePlayer from "../components/MobilePlayer";
+import MobileBottomNav from "../components/MobileBottomNav";
 
 import albums from "../data/albums.json";
 import indiaBest from "../data/indiaBest.json";
 
 export default function Home() {
   return (
-    <div className="flex h-screen bg-black text-white">
-      <Sidebar />
+    <div className="flex min-h-screen bg-black text-white overflow-x-hidden">
+      
+      {/* ❌ HIDE SIDEBAR ON MOBILE */}
+      <div className="hidden md:block">
+        <Sidebar />
+      </div>
 
-      <div className="flex-1 overflow-y-auto">
+      {/* ✅ MAIN CONTENT */}
+      <div className="flex-1 flex flex-col">
         <TopBar />
 
-        <div className="px-6 pb-20">
+        {/* 🔥 SPACE FOR MOBILE FIXED UI */}
+        <div className="flex-1 px-6 pb-40 md:pb-6">
           <Filters />
 
-          {/* POPULAR RADIO */}
           <Section title="Popular Radio" items={albums} />
-
-          {/* INDIA'S BEST */}
           <Section title="India’s Best" items={indiaBest} />
-
-          {/* TRENDING */}
           <Section title="Trending Now" items={albums.slice(6)} />
         </div>
       </div>
+
+      {/* ✅ MOBILE ONLY FIXED UI */}
+      <MobilePlayer />
+      <MobileBottomNav />
     </div>
   );
 }
 
 /* =========================
-   REUSABLE SECTION COMPONENT
+   REUSABLE SECTION
    ========================= */
 function Section({ title, items }) {
   const LIMIT = 6;
@@ -43,8 +50,8 @@ function Section({ title, items }) {
   const visibleItems = showAll ? items : items.slice(0, LIMIT);
 
   return (
-    <>
-      <div className="flex justify-between items-center mt-10 mb-4">
+    <section className="mt-10">
+      <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">{title}</h2>
 
         {hasMore && (
@@ -62,6 +69,6 @@ function Section({ title, items }) {
           <AlbumCard key={item.id} album={item} />
         ))}
       </div>
-    </>
+    </section>
   );
 }

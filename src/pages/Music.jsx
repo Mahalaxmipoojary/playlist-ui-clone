@@ -29,7 +29,8 @@ export default function Music() {
     <div className="flex h-screen bg-black text-white">
       <Sidebar />
 
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 overflow-y-auto pb-32 md:pb-0">
+
         <TopBar />
 
         <div className="px-6">
