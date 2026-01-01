@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 🔥 CRITICAL MOBILE FIX */
 html, body, #root {
   height: 100%;
   margin: 0;

@@ -12,18 +12,18 @@ import indiaBest from "../data/indiaBest.json";
 export default function Home() {
   return (
     <div className="flex min-h-screen bg-black text-white overflow-x-hidden">
-      
-      {/* ❌ HIDE SIDEBAR ON MOBILE */}
+
+      {/* ✅ HIDE SIDEBAR ON MOBILE */}
       <div className="hidden md:block">
         <Sidebar />
       </div>
 
-      {/* ✅ MAIN CONTENT */}
-      <div className="flex-1 flex flex-col">
+      {/* ✅ MAIN SCROLL AREA */}
+      <div className="flex-1 flex flex-col overflow-y-auto">
         <TopBar />
 
-        {/* 🔥 SPACE FOR MOBILE FIXED UI */}
-        <div className="flex-1 px-6 pb-40 md:pb-6">
+        {/* 🔥 bottom padding for mobile fixed UI */}
+        <div className="px-6 pb-40 md:pb-6">
           <Filters />
 
           <Section title="Popular Radio" items={albums} />
@@ -32,9 +32,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* ✅ MOBILE ONLY FIXED UI */}
-      <MobilePlayer />
-      <MobileBottomNav />
     </div>
   );
 }
